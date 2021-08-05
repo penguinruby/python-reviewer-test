@@ -15,13 +15,8 @@ def main():
             print("You performed " + str(operations_count) + " operations, bye!")
 
 
-def perform_division(a,b):
-    global operations_count
-    try:
-        operations_count += 1
-        return int(a)/int(b)
-    except Exception as e:
-        pass
+
+
 
 
 main()
